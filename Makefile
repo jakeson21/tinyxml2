@@ -13,8 +13,8 @@ INCLUDES =
 EXECUTABLE=xmltest
 
 # options I'll pass to the compiler.
-CXXFLAGS =-std=c++11 -Wall -c ${INCLUDES}
-DEBUG    =-std=c++11 -Wall -g -c ${INCLUDES}
+CXXFLAGS =-std=c++11 -m64 -Wall -c ${INCLUDES}
+DEBUG    =-std=c++11 -m64 -Wall -g -c ${INCLUDES}
 
 all: lib $(EXECUTABLE)
 
